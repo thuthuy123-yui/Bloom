@@ -1,0 +1,236 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.bodyhead {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7a3e1d;
+    padding: 5px 5px;
+    font-family: Arial, sans-serif;
+    height: 60px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.menu {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: smaller;
+}
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.menu a:hover{
+    color:#a5a5a5;
+}
+/* Container cho hộp tìm kiếm */
+.search-box {
+    display: flex;
+    align-items: center; /* Căn giữa chiều dọc */
+    gap: 5px; /* Khoảng cách giữa các phần tử */
+    height: 100%; /* Đảm bảo chiều cao linh hoạt */
+}
+
+/* Style chung cho input và nút submit */
+.search-box input[type="text"],
+.search-box input[type="submit"] {
+    height: 100%; /* Chiều cao bằng nhau, chiếm toàn bộ chiều cao của .search-box */
+    padding: 5px; /* Khoảng đệm bên trong */
+    border-radius: 3px; /* Đường viền bo tròn giống nhau */
+    font-size: 1rem; /* Kích thước chữ đồng bộ */
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước */
+}
+
+/* Style riêng cho ô input */
+.search-box input[type="text"] {
+    border: 1px solid #564324;
+    max-width: 280px; /* Giới hạn chiều rộng tối đa */
+    flex: 1; /* Cho phép mở rộng linh hoạt */
+}
+
+/* Style riêng cho nút submit */
+.search-box input[type="submit"] {
+    border: none;
+    background-color: #914F1E;
+    color: white;
+    cursor: pointer;
+    max-width: 100px; /* Giới hạn chiều rộng tối đa */
+}
+
+/* Đảm bảo responsive trên màn hình nhỏ */
+@media screen and (max-width: 768px) {
+    .search-box {
+        flex-direction: column; /* Xếp các phần tử theo hàng dọc */
+        gap: 5px;
+    }
+
+    .search-box input[type="text"],
+    .search-box input[type="submit"] {
+        width: 90%; /* Chiếm 90% chiều rộng của container */
+        height: auto; /* Chiều cao tự động điều chỉnh */
+    }
+}
+
+
+/*.search-box input[type="text"] {
+    padding: 5px;
+    border: 1px solid #564324;
+    border-radius: 3px;
+    height:80%;
+    max-width:280px;
+    box-sizing: border-box;
+}
+.search-box input[type="submit"] {
+    border: none;
+    background-color: #914F1E;
+    border-radius: 3px;
+    cursor: pointer;
+    color:white;
+    height:37px;
+    max-width:100px;
+    width:auto;
+    padding:0 15px;
+    font-size: 1rem;
+}*/
+.vi-tri-tk{
+    display:inline-flex;
+    align-items: center;
+}
+.tb-tk{
+    display: none;
+    color: #a82626; 
+    font-style: italic;
+}
+.container1 {
+    margin: 0 auto;
+}
+
+/*head*/
+.img3{
+    height:300px;
+    width:210px;
+}
+.img4{
+    height:50px;
+    width:64px;
+}
+.headbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+
+}
+.left{
+    display:inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+.bloom{
+    font-size: 25px;
+    color:mistyrose;
+    font-style: italic;
+}
+/*.p1{
+    display:flex;
+    text-decoration: underline;
+    color:azure;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}*/
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.gt{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+hr{
+    border: 1px;
+    height:4px;
+    background: linear-gradient(to right, #5E2E14, #FFD700);
+}
+.index1{
+    display:flex;
+    margin-top: 10px;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-left: 21px;
+}
+.footer {
+    background-color:rgba(255, 192, 203, 0.123);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    border-top: 1px solid #ddd;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer-section h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 0.9rem;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #666;
+}
+.form1{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+  
+

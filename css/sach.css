@@ -1,0 +1,63 @@
+.size-img{
+    width:240px;
+    height:auto;
+    max-height: 360px;
+    display:block;
+    padding-top: 20px;
+    
+}
+.custom-center {
+    display: block;
+    margin: 0 auto; /* Căn giữa hình ảnh theo chiều ngang */
+}
+.box{
+    border:1px solid grey;
+    box-shadow: 10px 10px 15px rgba(21, 19, 16, 0.847);
+    position: relative;
+    background-color: #704f3dd0;
+}
+
+.lora-uniquifier {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+table {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 18px;
+    border-collapse: collapse;
+    color:aliceblue;
+}
+
+/* Định dạng đường viền cho các ô */
+table, th, td {
+    border: 1px solid #070000;
+}
+
+th {
+    text-align: center;
+    font-size:24px;
+}
+
+/* Định dạng cho các ô của bảng (thẻ <td>) */
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Định dạng xen kẽ màu nền cho các hàng */
+tr:nth-child(even) {
+    background-color: #503526b9;
+}
+
+/* Định dạng khi di chuột qua các hàng */
+tr:hover {
+    background-color: #655858e6;
+}
+.container-fluid{
+    padding-top: 80px;
+    z-index: 2;
+    position:relative;
+}

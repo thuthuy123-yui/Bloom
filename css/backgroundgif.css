@@ -1,0 +1,99 @@
+.background {
+    background: url('https://imgur.com/tWDOQ9V.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+    display:flex;
+    text-decoration: underline;
+    color:azure;
+    font-size: 78px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity:1;
+}
+.background1 {
+    background: url('https://imgur.com/tWDOQ9V.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 675px;
+    margin-top: 60px;
+    display:flex;
+    text-decoration:none;
+    color:azure;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity:1;
+    font-family: "Itim", cursive;
+}
+.song{
+    position:relative;
+}
+.songsong {
+    background: url('https://i.pinimg.com/originals/fb/ed/a9/fbeda997c9b463547af488ba925a03a2.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    opacity:1;
+    position:fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+.kogiadinh {
+    background: url('https://i.pinimg.com/originals/3c/2a/e3/3c2ae3a6bcd13dfd59a9fe08f9ec8d30.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    opacity:1;
+    position:fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+.tuoitho {
+    background: url('https://imgur.com/ejH1mKP.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    opacity:1;
+    position:fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+.lesong {
+    background: url('https://i.pinimg.com/originals/4e/47/2a/4e472a4090810eeebea95c9be17948f7.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    margin-top: 60px;
+    opacity:1;
+    position:fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+.bstl {
+    background: url('https://i.pinimg.com/originals/07/3e/fc/073efc523b520f81ff6a5aa51e908889.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    opacity:0.9;
+    position:fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+.codoc {
+    background: url('https://i.pinimg.com/originals/fb/a4/97/fba4978ebe7b7b9c83b5dd830c06d367.gif') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity:1;
+    position:fixed ;
+    object-fit: cover;
+    z-index: -1;
+}
