@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {//dom được kích hoạt khi HTML được tải và phân tích cú pháp xong, nhưng trước khi các tài nguyên (như ảnh, video) được tải đầy đủ.
   const inputs = document.querySelectorAll("input[required]");
   const button = document.querySelector(".nut");
 

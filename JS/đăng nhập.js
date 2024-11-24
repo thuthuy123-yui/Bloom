@@ -1,6 +1,6 @@
 function hienMk() {
     const passwordInput = document.getElementById("mk");
-    const eyeIcon = document.getElementById("eyeIcon"); // Sửa lại từ eyeInput thành eyeIcon
+    const eyeIcon = document.getElementById("eyeIcon"); 
 
     if (passwordInput.type === "password") {
         passwordInput.type = "text";
@@ -39,9 +39,6 @@ function updateLoginButtonState() {
     } else {
         loginButton.disabled = true;
         errorMessage.style.display = "block"; // Hiển thị thông báo lỗi nếu mật khẩu không hợp lệ
-        // Đặt vị trí của tooltip ở bên phải của ô nhập mật khẩu
-        //errorMessage.style.top = `${passwordInput.offsetTop}px`;
-        //errorMessage.style.left = `${passwordInput.offsetLeft + passwordInput.offsetWidth + 15}px`;
     }
 }
 

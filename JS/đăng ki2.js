@@ -1,6 +1,6 @@
 function hienMk1() {
     const passwordInput = document.getElementById("mk1");
-    const eyeIcon = document.getElementById("eyeIcon1"); // Sửa lại từ eyeInput thành eyeIcon
+    const eyeIcon = document.getElementById("eyeIcon1"); 
 
     if (passwordInput.type === "password") {
         passwordInput.type = "text";
